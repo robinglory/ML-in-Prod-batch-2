@@ -13,3 +13,13 @@ conda activate test
 # delete env
 conda remove test_env --all 
 ```
+
+
+### Git basic commands
+```bash
+git status
+git add .
+git commit -m "this is a message"
+git push
+
+```
