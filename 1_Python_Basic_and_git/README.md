@@ -19,7 +19,7 @@ conda remove test_env --all
 ```bash
 git status
 git add .
-git commit -m "this is a message"
+git commit -m "this is a message 2"
 git push
 
 ```
