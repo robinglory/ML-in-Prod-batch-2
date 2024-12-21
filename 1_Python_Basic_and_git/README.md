@@ -23,3 +23,17 @@ git commit -m "this is a message 2"
 git push
 
 ```
+
+
+
+### Create SSH connection connect
+##### generate RSA public key
+```bash
+ssh-keygen -t rsa -f tharhtetsan -C tharhtetsan.ai@gmail.com
+
+# for window check
+#C:\Users\username\
+
+# for mac check .ssh under username
+# eg: /Users/tharhtet/.ssh/id_e
+```
