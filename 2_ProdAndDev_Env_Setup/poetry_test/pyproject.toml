@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "poetry-test"
+version = "0.1"
+description = "poetry_testing_1"
+authors = ["Thar Htet San <tharhtet1234@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.14"
+requests = "^2.32.3"
+tensorflow = "^2.18.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
