@@ -168,5 +168,5 @@ cython_debug/
 /5_DeepLearning/tf_best_practices/cats_and_dogs_filtered
 5_DeepLearning/tf_best_practices/cat_and_dogs_train/my_tf_model_weight_only.weights.h5
 /5_DeepLearning/tf_best_practices/logs
-/5_DeepLearning/tf_best_practices/skin_cancer
 5_DeepLearning/tf_best_practices/cat_and_dogs_train/my_tf_model.h5
+/5_DeepLearning/tf_best_practices/skin_cancer
