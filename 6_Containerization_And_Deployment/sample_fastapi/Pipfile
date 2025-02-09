@@ -7,8 +7,18 @@ name = "pypi"
 fastapi = "*"
 uvicorn = "*"
 pydantic = "*"
+scipy = "*"
+tensorflow = "*"
+soundfile = "*"
+torch = "*"
+transformers = "==4.42.4"
+openai = "*"
+accelerate = "*"
 
 [dev-packages]
+ipykernel = "*"
+tensorflow-macos = "*"
+tensorflow-metal = "*"
 
 [requires]
 python_version = "3.10"
