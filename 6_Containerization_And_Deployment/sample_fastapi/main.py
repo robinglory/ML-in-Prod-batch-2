@@ -5,7 +5,7 @@ import uvicorn
 import asyncio
 
 
-from fastapi import status,Response
+from fastapi import status,Response,Query
 from fastapi.responses import StreamingResponse
 
 
@@ -94,16 +94,14 @@ def serve_text_gen(request : Request,
             result=generated_text
         )
 
-@app.post("/audio_gen",
+@app.get("/audio_gen",
           responses={status.HTTP_200_OK:{"content" : {"audio/wav":{}}}},
           response_class=StreamingResponse,)
-
-async def serve_audio_gen(request : Request,
-                body : textRequestModel = Body(...)) -> StreamingResponse:
+def serve_audio_gen(prompt = Query(...),prest : audioModel.VoicePresets = Query(default="v2/en_speaker_9")) -> StreamingResponse:
     
-    output_audio_array = ml_models["audio_m_obj"].generate_audio(body.prompt)
+    output_audio_array = ml_models["audio_m_obj"].generate_audio(prompt)
     
-    return StreamingResponse(output_audio_array, media_type="audio/wav")
+    return StreamingResponse(output_audio_array, media_type="audio/wav",headers={"Content-Disposition": "inline; filename=generated_audio.wav"})
 
 
 if __name__ == "__main__":

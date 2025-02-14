@@ -5,7 +5,7 @@ import soundfile
 import IPython
 from io import BytesIO
 from transformers import AutoProcessor, AutoModel, Pipeline, pipeline
-
+from typing import Literal
 import torch
 import utils
 
@@ -49,6 +49,9 @@ class textModel():
 
 
 class audioModel():
+    VoicePresets = Literal["v2/en_speaker_1", "v2/en_speaker_9"]
+
+
     def __init__(self):
         self.preset = "v2/en_speaker_9"
         self.processor = None
