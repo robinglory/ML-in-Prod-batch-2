@@ -1,6 +1,8 @@
 from sg_BaseTemplate import BaseTemplate
 from sg_template_1 import template_1
 from sg_template_2 import template_2
+
+
 def client_code(base_template : BaseTemplate) -> None:
     base_template.template_method()
 

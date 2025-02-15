@@ -97,7 +97,7 @@ def serve_text_gen(request : Request,
 @app.get("/audio_gen",
           responses={status.HTTP_200_OK:{"content" : {"audio/wav":{}}}},
           response_class=StreamingResponse,)
-def serve_audio_gen(prompt = Query(...),prest : audioModel.VoicePresets = Query(default="v2/en_speaker_9")) -> StreamingResponse:
+async def serve_audio_gen(prompt = Query(...),prest : audioModel.VoicePresets = Query(default="v2/en_speaker_9")) -> StreamingResponse:
     
     output_audio_array = ml_models["audio_m_obj"].generate_audio(prompt)
     

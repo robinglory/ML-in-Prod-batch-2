@@ -21,5 +21,3 @@ print("############")
 load_model_2 = Model_2(load_model_1)
 clint_code(load_model_2)
 print("############")
-
-
