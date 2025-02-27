@@ -31,14 +31,23 @@ This repository contains materials for the "Machine Learning Systems for Product
 |5-1-2025 | Basic ML Algorithms - 2 | - Linear Regression coding <br>- Decission Tree, Navie Bayes, K-Means Coding <br>- Single perceptron (from scratch ) | [Day-6](https://youtu.be/oGXVHlluo0U)|
 |11-1-2025 |  Deep Learning-2 | - Deep Learning<br>- CNN<br>- Tensorflow GPU install | [Day-7](https://youtu.be/bc7Rap-8BfQ)|
 |12-1-2025 | Tensorflow Best Practices | - Env Setup for ML project<br>- Tensorflow Basic<br>- Tensorflow Data Generators.<br>- Model Saving and Loading | [Day-8](https://youtu.be/wGogjYowsdc)|
-|18-1-2025 | - | - | - |
-|19-1-2025 | - | - | - |
-|25-1-2025 | - | - | - |
-|26-1-2025 | - | - | - |
-
+|18-1-2025 | TharHtet leave today | - | -|
+|19-1-2025 | - | - | [Day-10](https://youtu.be/DhWQs4OC5rI)  |
 
 #### Feb 2025
-##### Category : <b> Programming, Logic, ML Basic </b>
+##### Category : <b> CloudRun, CI/CD, Deployment</b>
 |Date | Title | Description | Video + Source Code  |
 |-----|-----|-----|-----|
-|1-2-2025 | - | - | - |
+|01-2-2025 | - | - |  [Day-11](https://youtu.be/fRncoqi2Mug) |
+|02-2-2025 | - | - | [Day-12](https://youtu.be/bJ9HUyVFM2c)  |
+|08-2-2025 | - | - | [Day-13](https://youtu.be/Mm5JR2Y5gQo)  |
+|09-2-2025 | - | - | [Day-14](https://youtu.be/Ea_ui7RTtxQ)  |
+|15-2-2025 | - | - | [Day-15](https://youtu.be/0U97MYnwEvs)  |
+|22-2-2025 | - | - | [Day-16](https://youtu.be/4tiwUouEXrU)  |
+|23-2-2025 | - | - | [Day-17](https://youtu.be/E7dlQXeBxdQ)  |
+
+
+
+### Course Proejcts
+#### [Text and Audio Generation in Serverless ](https://github.com/tharhtetsan/ML_in_Prod_batch_2_proj1)
+
