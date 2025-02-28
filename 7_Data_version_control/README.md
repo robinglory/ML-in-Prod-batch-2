@@ -39,20 +39,21 @@ git push
 
 #### Use dvc add to start tracking the dataset file:
 ```bash
-dvc add gcp_bucket
+dvc add 7_Data_version_control/cat_and_dog_dataset
+
 ```
 
 Now dvc is creating a  cache file, please check <b> .dvc/cache/files/md5/.. </b>
 
 #### 
 ```bash
+git status
 git add gcp_bucket.dvc
 ```
 
 #### Configuring a remote with google drive
 ```bash
-dvc remote add --default gcp_bucket gs://ths_ml_in_prod_batch_1/single_file/gcp_bucket -f
-
+dvc remote add --default 7_Data_version_control/cat_and_dog_dataset gs://ths_dvc_test -f
 dvc commit
 sudo dvc push
 ```

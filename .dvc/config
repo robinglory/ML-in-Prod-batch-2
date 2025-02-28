@@ -1,0 +1,4 @@
+[core]
+    remote = 7_data_version_control/cat_and_dog_dataset
+['remote "7_data_version_control/cat_and_dog_dataset"']
+    url = gs://ths_dvc_test
