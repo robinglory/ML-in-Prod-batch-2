@@ -173,3 +173,4 @@ cython_debug/
 /7_Data_version_control/cat_and_dog_dataset
 /8_Experiment_Tracking/mlruns
 /8_Experiment_Tracking/mlartifacts
+/8_Experiment_Tracking/mlflow_prod/credentials
