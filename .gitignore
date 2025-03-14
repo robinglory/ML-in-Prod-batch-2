@@ -174,3 +174,4 @@ cython_debug/
 /8_Experiment_Tracking/mlruns
 /8_Experiment_Tracking/mlartifacts
 /8_Experiment_Tracking/mlflow_prod/credentials
+/8_Experiment_Tracking/mlflow_prod/mlruns

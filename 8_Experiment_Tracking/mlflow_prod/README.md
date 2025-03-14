@@ -5,7 +5,11 @@ mlflow server  --host 127.0.0.1 --port 8080 --default-artifact-root gs://YOUR_GC
 
 
 # set application credentials
-export GOOGLE_APPLICATION_CREDENTIALS=./credentials/serviceAccount.json
+gcloud auth application-default login
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/tharhtet/Documents/github/ML-in-Prod-batch-2/8_Experiment_Tracking/mlflow_prod/credentials/serviceAccount.json"
+gsutil ls gs://ths_mlflow_server/1
+
+
 mlflow server  --host 127.0.0.1 --port 8080 --default-artifact-root gs://ths_mlflow_server 
 
 
@@ -19,7 +23,7 @@ mlflow server  --host 127.0.0.1 --port 8080 --backend-store-uri postgresql+pg800
 
 
 ## Run fully locally 
-mlflow server  --host 127.0.0.1 --port 8080 --default-artifact-root gs://ths_mlflow_server --backend-store-uri postgresql+pg8000://postgres:tharhtetpwd@34.46.76.38:5432/postgres
+mlflow server  --host 127.0.0.1 --port 8080 --default-artifact-root gs://ths_mlflow_server --backend-store-uri postgresql+psycopg2://postgres:tharhtetpwd@34.46.76.38:5432/postgres
 
 
 
