@@ -1,16 +1,16 @@
 ### Test mlflow locally first
 ```bash
 # test mlflow with your custom artifcat store and database
-mlflow server  --host 127.0.0.1 --port 8080 --default-artifact-root gs://YOUR_GCP_BUCKETNAME  --backend-store-uri postgresql+psycopg2://DB_USERNAME:DB_PASSWORD@DB_IP:5432/DB_NAME
+sudo mlflow server  --host 127.0.0.1 --port 8080 --default-artifact-root gs://YOUR_GCP_BUCKETNAME  --backend-store-uri postgresql+psycopg2://DB_USERNAME:DB_PASSWORD@DB_IP:5432/DB_NAME
 
 
 # set application credentials
-gcloud auth application-default login
+sudo gcloud auth application-default login
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/tharhtet/Documents/github/ML-in-Prod-batch-2/8_Experiment_Tracking/mlflow_prod/credentials/serviceAccount.json"
-gsutil ls gs://ths_mlflow_server/1
+sudo gsutil ls gs://ths_mlflow_server/1
 
 
-mlflow server  --host 127.0.0.1 --port 8080 --default-artifact-root gs://ths_mlflow_server 
+sudo mlflow server  --host 127.0.0.1 --port 8080 --default-artifact-root gs://ths_mlflow_server 
 
 
 
@@ -23,7 +23,8 @@ mlflow server  --host 127.0.0.1 --port 8080 --backend-store-uri postgresql+pg800
 
 
 ## Run fully locally 
-mlflow server  --host 127.0.0.1 --port 8080 --default-artifact-root gs://ths_mlflow_server --backend-store-uri postgresql+psycopg2://postgres:tharhtetpwd@34.46.76.38:5432/postgres
+sudo mlflow server --host 127.0.0.1 --port 8080 --backend-store-uri postgresql+psycopg2://postgres:tharhtetpwd@34.46.76.38:5432/postgres --default-artifact-root gs://ths_mlflow_server
+
 
 
 
