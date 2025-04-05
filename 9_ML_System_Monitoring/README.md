@@ -17,3 +17,10 @@
 - Use statistical tests (Kolmogorov-Smirnov, PSI) to detect drift.
 - Implement model retraining pipelines for drift adaptation.
 - Use adaptive learning techniques for evolving patterns.
+
+### References
+- [Hidden Technical Debt in Machine Learning Systems](https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)
+- [Monitoring Machine Learning Models in Production](https://towardsdatascience.com/monitoring-machine-learning-models-in-production-how-to-track-data-quality-and-integrity-391435c8a299/)
+- [Machine Learning Monitoring: What It Is, and What We Are Missing](https://medium.com/data-science/machine-learning-monitoring-what-it-is-and-what-we-are-missing-e644268023ba)
+- [Monitoring unstructured data for LLM and NLP](https://medium.com/data-science/monitoring-unstructured-data-for-llm-and-nlp-efff42704e5b)
+- [https://medium.com/data-science/how-to-measure-drift-in-ml-embeddings-ee8adfe1e55e](https://medium.com/data-science/how-to-measure-drift-in-ml-embeddings-ee8adfe1e55e)
