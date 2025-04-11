@@ -1,0 +1,60 @@
+version: "3.9"
+
+services:
+
+  fastapi_app:
+    build: ./fastapi
+    ports:
+      - "8000:8000"
+
+    depends_on:
+      - postgres_db
+    volumes:
+      - ./data:/fastapi/data
+      - ./reports:/fastapi/reports
+    environment:
+      - DB_HOST=postgres_db
+      - DB_NAME=mnistdb
+      - DB_USER=mnistuser
+      - DB_PASS=mnistpass
+    networks:
+      - monitoring
+
+
+  streamlit_app:
+    build:
+      context: streamlit_app
+      dockerfile: Dockerfile
+    image: streamlit_app:latest
+    container_name: streamlit_app
+    restart: always
+    volumes:
+      - ./:/home/evidently-fastapi
+    environment:
+      - FASTAPI_APP_HOST=fastapi_app
+    ports:
+      - 8501:8501
+    networks:
+      - monitoring
+
+  postgres_db:
+    image: postgres:15
+    container_name: postgres-db
+    environment:
+      POSTGRES_DB: mnistdb
+      POSTGRES_USER: mnistuser
+      POSTGRES_PASSWORD: mnistpass
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - monitoring
+
+networks:
+  monitoring:
+    name: monitoring
+
+volumes:
+  pgdata:
