@@ -19,7 +19,7 @@ if __name__ == '__main__':
     # Sidebar: Logo and links
     display_sidebar_header()
     host: Text = os.getenv('FASTAPI_APP_HOST', 'localhost')
-    base_route: Text = f'http://{host}:5000'
+    base_route: Text = f'http://{host}:8000'
 
     try:
 

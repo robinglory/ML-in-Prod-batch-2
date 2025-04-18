@@ -24,3 +24,6 @@
 - [Machine Learning Monitoring with evidentlyai](https://www.evidentlyai.com/ml-in-production/model-monitoring)
 - [Monitoring unstructured data for LLM and NLP](https://medium.com/data-science/monitoring-unstructured-data-for-llm-and-nlp-efff42704e5b)
 - [https://medium.com/data-science/how-to-measure-drift-in-ml-embeddings-ee8adfe1e55e](https://medium.com/data-science/how-to-measure-drift-in-ml-embeddings-ee8adfe1e55e)
+
+
+
