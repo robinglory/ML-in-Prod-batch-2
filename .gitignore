@@ -177,3 +177,5 @@ cython_debug/
 /8_Experiment_Tracking/mlflow_prod/mlruns
 9_ML_System_Monitoring/monitoring_proj_evidently/data/mnist_model.h5
 9_ML_System_Monitoring/monitoring_proj_evidently/data/reference_data.csv
+/9_ML_System_Monitoring/workspace
+*.h5

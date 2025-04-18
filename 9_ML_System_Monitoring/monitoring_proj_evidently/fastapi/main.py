@@ -7,6 +7,7 @@ from uuid import uuid4
 import psycopg2
 from model import predict_digit,predict_digits
 from sklearn.decomposition import PCA
+
 from typing import List
 import pandas as pd
 import evidently
@@ -27,8 +28,6 @@ report = Report(
             ColumnDriftMetric(column_name='max_pixel'),
              DataDriftPreset()]
 )
-
-
 
 
 
@@ -68,6 +67,8 @@ def extract_image_stats(images):
         "max_pixel": np.max(images),
     }
     return stats
+
+
 
 def get_new_df(input_image_arr:np.array):
     _pred_test = predict_digits(input_image_arr)
