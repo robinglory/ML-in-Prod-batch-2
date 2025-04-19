@@ -145,6 +145,7 @@ def predict_taxi(body :  taxi_model = Body(...)):
     #print(features.shape)
     #print(features.dtypes)
     model_path = "/fastapi/data/taxi_lr_model.pkl"
+    new_model = None
     new_model = joblib.load(model_path)
 
     print("new_model : ",new_model)
@@ -215,6 +216,7 @@ def monitor_target_drift(window_size: int = 5) -> FileResponse:
     current_data["duration_min"] =current_data['prediction']
 
     reference_data = load_reference_data(file_name="taxi_reference_data.parquet")
+    
     column_mapping = ColumnMapping(
             target=target,
             prediction='prediction',

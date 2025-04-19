@@ -179,3 +179,5 @@ cython_debug/
 9_ML_System_Monitoring/monitoring_proj_evidently/data/reference_data.csv
 /9_ML_System_Monitoring/workspace
 *.h5
+.DS_Store
+.DS_Store
