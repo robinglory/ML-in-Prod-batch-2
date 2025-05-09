@@ -14,3 +14,14 @@ Lazy Evaluation: Optimizes execution plans before running them.
 In-Memory Processing: Faster than traditional disk-based engines like Hadoop MapReduce.
 
 Compatibility: Works well with Python libraries like pandas, NumPy, and scikit-learn.
+
+
+
+
+### Please see [Custom Apache Spark Cluster run databricks locally](https://github.com/tharhtetsan/Custom-Apache-Spark-Cluster-run-databricks-locally)
+
+![spark_image](./images/spark.png)
+
+```bash
+docker compose up --build
+```
