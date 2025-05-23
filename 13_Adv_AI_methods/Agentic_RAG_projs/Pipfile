@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pydantic = "*"
+ipywidgets = "*"
+langchain-community = "*"
+python-dotenv = "*"
+crewai = "==0.117.0"
+crewai-tools = "*"
+groq = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
