@@ -11,6 +11,7 @@ python-dotenv = "*"
 crewai = "==0.117.0"
 crewai-tools = "*"
 groq = "*"
+matplotlib = "*"
 
 [dev-packages]
 ipykernel = "*"
