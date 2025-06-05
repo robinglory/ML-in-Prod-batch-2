@@ -48,68 +48,24 @@ This repository contains materials for the "Machine Learning Systems for Product
 | Day       | Topics Covered                                                                 | Source Code |
 |-----------|----------------------------------------------------------------------------------|-------|
 | [Day 5](https://youtu.be/_LMB6GCD7fI) | - OCR Project<br> - Decision Tree<br> - K-Means<br> - Navie Bayes | - [Img Processing for Invoic](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/3_Image_Processing_Techniques/OCR_sample.ipynb) <br> - [OCR Project ](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/3_Image_Processing_Techniques/OCR_proj) <br> |
-| [Day 6](https://youtu.be/oGXVHlluo0U) | - Linear Regression coding <br> - Decission Tree, Navie Bayes, K-Means Coding <br> - Single perceptron (from scratch ) | - [Decision Tree and Navie Bayes : Framework](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/4_MachineLearning/1.%20Decision%20Tree%20and%20Navie%20Bayes/Decision_tree_framework.ipynb) <br> - [OCR Project ](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/3_Image_Processing_Techniques/OCR_proj) <br> |
-
-
-
-
+| [Day 6](https://youtu.be/oGXVHlluo0U) | - Linear Regression coding <br> - Decission Tree, Navie Bayes, K-Means Coding <br> - Single perceptron (from scratch ) | - [Decision Tree and Navie Bayes : Framework](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/4_MachineLearning/1.%20Decision%20Tree%20and%20Navie%20Bayes/Decision_tree_framework.ipynb) <br> - [Decision Tree : Native ](https://github.com/tharhtetsan/zero_2_hero_ml/blob/main/6_Machine_Learning/Decision%20Tree/1.%20Decision_treeDecision_native.ipynb) <br><br> - [K-Means Clustering : Framework](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/4_MachineLearning/2.%20K_means_clustering/k_means_Image_Clustering.ipynb) <br>- [K-Means Clustering : Native](https://github.com/tharhtetsan/zero_2_hero_ml/blob/main/6_Machine_Learning/K-Mean%20Clustering/k_means_native/K-mean_Clustering_native.ipynb) <br><br> - [Navie Bayes : Framework ](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/4_MachineLearning/3.%20Navie%20Bayes/Navie_Bayes_framework.ipynb)<br> - [Navie Bayes : Native ](https://github.com/tharhtetsan/zero_2_hero_ml/blob/main/6_Machine_Learning/Naive-Bayes-Classifier/Navie_Bayes_native_to_learn.ipynb) <br><br> - [Linear Regression](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/4_MachineLearning/4.%20Linear%20and%20Logistic%20Regression/1.%20Linear%20Regression%20using%20Gradient%20Descent.ipynb) <br> - [Logistic Regression](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/4_MachineLearning/4.%20Linear%20and%20Logistic%20Regression/3.%20Logistic%20Regression.ipynb)|
 
 
 <br>
 <br>
 
 
-
-
-
-- #### Chapter-5 : Deep Learning
-
-
-
-
-  (Day-1, Day-2)
-- Machine Learning 
-   
-  
+### Chapter-5 : Deep Learning
+| Day       | Topics Covered                                                                 | Source Code |
+|-----------|----------------------------------------------------------------------------------|-------|
+| [Day 7](https://youtu.be/bc7Rap-8BfQ) | - Deep Learning <br>- Artificial Neural Network (ANN) <br> - Convolutional Neural Network (CNN) <br>- How calculate no of params for DL model<br>- Tensorflow GPU install | - [ANN : Framework](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/5_DeepLearning/ANN/tf_simple_NN.ipynb) <br> - [ANN : Native](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/5_DeepLearning/ANN/Native%20Simple%20Logistic%20Regression.ipynb) |
+| [Day 8](https://youtu.be/wGogjYowsdc) | - Env Setup for DL Proj <br> - TF Data Generators | - [TF generator : binary](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/5_DeepLearning/tf_best_practices/tf_generator_binary.ipynb) <br> - [TF generator : categorical](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/5_DeepLearning/tf_best_practices/tf_generator_category.ipynb) |
+| [Day 10](https://youtu.be/DhWQs4OC5rI) | - Custom Data Generator <br> - Developing Custom TF model <br> - Custom Training  | - [TF Custom generator ](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/5_DeepLearning/tf_best_practices/tf_custom_generator.ipynb) <br> - [TF Custom Model ](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/5_DeepLearning/tf_best_practices/train_custom_generator.ipynb) <br> - [TF Custom Training ](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/5_DeepLearning/tf_best_practices/tf_with_gradientTape.ipynb)|
+| [Day 11](https://youtu.be/fRncoqi2Mug) | - Knowledge Distillation <br> - Teacher and Student Networks <br> - Tensorflow best practices | <br> - [Teacher and Student Networks ](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/5_DeepLearning/tf_best_practices/knowledge_distillation.ipynb) |
 
 
 
 
-
-
-### Course Timetable
-#### Dec 2024
-##### Category : <b> Programming, Logic, ML Basic </b>
-|Date | Title | Description | Video + Source Code  |
-|-----|-----|-----|-----|
-|21-12-2024 | Course Introduction | - Course coverage and purpose<br>- Learning Tools and Git Config<br>- Anaconda and Python Basic syntax | [Day-1](https://youtu.be/TcLsSfVlrvw)|
-|22-12-2024|Python Basic| - Python class and object<br>- Ollama Usage<br>- Pandas<br>- List<br>- Function Decorator<br>- Args vs kwargs| [Day-2](https://youtu.be/43wYGtQgXKU)|
-|28-12-2024 | Enviroment Setup | - Anaconda Usage<br>- PipEnv setup<br>- Poetry for python Envs | [Day-3](https://youtu.be/8-vuoEaJNXE) |
-|29-12-2024 |  Image Processing Techniques  | - Basic Image Processing Techniques. </br> - BGR and RGB. </br> - Image lib : OpenCV and Pillow. </br> - Line detection Sample Project  | [Day-4](https://youtu.be/WqHgoYrLvW0)|
-
-
-#### Jan 2025
-##### Category : <b>  Logic, ML Basic, Tensorflow, Pytroch, Cloud Basic </b>
-|Date | Title | Description | Video + Source Code  |
-|-----|-----|-----|-----|
-|4-1-2025 |OCR Project and ML Algorithms -1 | - OCR Project<br>- Decision Tree<br>- K-Means<br>- Navie Bayes| [Day-5](https://youtu.be/_LMB6GCD7fI) |
-|5-1-2025 | Basic ML Algorithms - 2 | - Linear Regression coding <br>- Decission Tree, Navie Bayes, K-Means Coding <br>- Single perceptron (from scratch ) | [Day-6](https://youtu.be/oGXVHlluo0U)|
-|11-1-2025 |  Deep Learning-2 | - Deep Learning<br>- CNN<br>- Tensorflow GPU install | [Day-7](https://youtu.be/bc7Rap-8BfQ)|
-|12-1-2025 | Tensorflow Best Practices | - Env Setup for ML project<br>- Tensorflow Basic<br>- Tensorflow Data Generators.<br>- Model Saving and Loading | [Day-8](https://youtu.be/wGogjYowsdc)|
-|18-1-2025 | TharHtet leave today | - | -|
-|19-1-2025 | - | - | [Day-10](https://youtu.be/DhWQs4OC5rI)  |
-
-#### Feb 2025
-##### Category : <b> CloudRun, CI/CD, Deployment</b>
-|Date | Title | Description | Video + Source Code  |
-|-----|-----|-----|-----|
-|01-2-2025 | - | - |  [Day-11](https://youtu.be/fRncoqi2Mug) |
-|02-2-2025 | - | - | [Day-12](https://youtu.be/bJ9HUyVFM2c)  |
-|08-2-2025 | - | - | [Day-13](https://youtu.be/Mm5JR2Y5gQo)  |
-|09-2-2025 | - | - | [Day-14](https://youtu.be/Ea_ui7RTtxQ)  |
-|15-2-2025 | - | - | [Day-15](https://youtu.be/0U97MYnwEvs)  |
-|22-2-2025 | - | - | [Day-16](https://youtu.be/4tiwUouEXrU)  |
-|23-2-2025 | - | - | [Day-17](https://youtu.be/E7dlQXeBxdQ)  |
 
 
 
