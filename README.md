@@ -78,8 +78,41 @@ This repository contains materials for the "Machine Learning Systems for Product
 | [Day 15](https://youtu.be/0U97MYnwEvs) | - Design Pattern <br> - Structural vs Behavioral design patterns <br> - Structuring the project. <br> - Code formatter and clean code creation. <br> - Introduction to CloudRun | - [Design Pattern Examples ](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/1_Python_Basic_and_git/design_pattern) <br> - [ML_in_Prod_batch_2_proj1](https://github.com/tharhtetsan/ML_in_Prod_batch_2_proj1) |
 | [Day 16](https://youtu.be/4tiwUouEXrU) | - Set CI/CD in Project for CloudRun | - [Cloud Build ymal](https://github.com/tharhtetsan/ML_in_Prod_batch_2_proj1/blob/main/cloudbuild.yaml) |
 | [Day 17](https://youtu.be/E7dlQXeBxdQ) | - Understanding artifact registry <br> - CloudRun versioning <br> - Run-time Variable in CI/CD | - |
-| [Day 18](https://youtu.be/fiZQqM-UlS8) | - Github Action <br> - Unit Testing <br>- Automation the Unit Tests | [ci_sample.yml](https://github.com/tharhtetsan/ML_in_Prod_batch_2_proj1/blob/stg/.github/workflows/ci_sample.yml)|
+| [Day 18](https://youtu.be/fiZQqM-UlS8) | - Github Action <br> - Code Formatting <br> -  Code Quality Check<br> - Unit Testing <br>- Automation the Unit Tests | [ci_sample.yml](https://github.com/tharhtetsan/ML_in_Prod_batch_2_proj1/blob/stg/.github/workflows/ci_sample.yml)|
 
+<br>
+<br>
+
+### Chapter-7 : Data Version Control in ML Projs
+| Day       | Topics Covered                                                                 | Source Code |
+|-----------|----------------------------------------------------------------------------------|-------|
+| [Day 19](https://youtu.be/ctY52c4CxpA) | - Introduction  to Data Version Control (DVC) <br> - DVC setup for dev environment. <br> - Introduction to MLflow. | - [DVC Setup Configs](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/7_Data_version_control) <br>- [DVC Repo](https://github.com/tharhtetsan/ths_dvc_testing) <br> - [Getting Start with MLflow](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/8_Experiment_Tracking/v1_getting_start_mlflow.ipynb)|
+
+<br>
+<br>
+
+### Chapter-8 : Experiments Tracking in ML
+| Day       | Topics Covered                                                                 | Source Code |
+|-----------|----------------------------------------------------------------------------------|-------|
+| [Day 20](https://youtu.be/4P4DyBbC8rM) | - Getting start with MLflow <br> - Logging API in MLflow <br> - MLflow client <br>- Model management in MLflow | - [Logging API in MLflow](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/8_Experiment_Tracking/v2_logging_api.ipynb) <br>- [MLflow client](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/8_Experiment_Tracking/v3_mlflow_client.ipynb) <br> -[Model management in Mlflow](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/8_Experiment_Tracking/v4_test.ipynb)|
+| [Day 21](https://youtu.be/Ao7SLYF-1J4) | - Compute Resources <br>- Eng-to-End MLflow |  -[End-to-End Mlflow](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/8_Experiment_Tracking/v5_end2end_tf.ipynb)|
+| [Day 22](https://youtu.be/2nFpFSWifCU) | - MLflow  backend store setup <br> - CloudSQL setup for MLflow | -|
+| [Day 23](https://youtu.be/Y0DYW2vIHCA) | - MLflow Prod Setup Explain | [Secure-MLflow-Server-for-production](https://github.com/tharhtetsan/Secure-MLflow-Server-for-production)|
+
+
+### Chapter-8 : ML Systems Monitoring
+| Day       | Topics Covered                                                                 | Source Code |
+|-----------|----------------------------------------------------------------------------------|-------|
+| [Day 24](https://youtu.be/YPW53QtMXeg) | - Concept Drift <br> - Data Drift <br> - Feature Drift <br> - Label Drift <br>- Sample drift detection logic <br> - Introduction to EvidentlyAI | - [Data Drift Sample](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/9_ML_System_Monitoring/drift_sample.ipynb) <br> -[Monitoring with Evidentlyai](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/9_ML_System_Monitoring/v1_monitoring_basic.ipynb)|
+| [Day 25](https://youtu.be/dq6qzffT9iA) | - Introduction to Monitoring Project <br> - Project setup with Prometheus and Grafana | [Monitoring-with-Prometheus-and-Grafana](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/9_ML_System_Monitoring/monitoring_proj_prometheus)|
+| [Day 26](https://youtu.be/lHhJ2TeYono) | - Introduction to Evidently Project. <br> - Setting up Evidently with streamlit App and FastAPI | -[Evidently Project Sample](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/9_ML_System_Monitoring/monitoring_proj_evidently/train_regression_model.ipynb) <br> -[Monitoring Proj with EvidentlyAI](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/9_ML_System_Monitoring/monitoring_proj_evidently)|
+| [Day 27](https://youtu.be/vK6JLIlBIiA) | - Explain detail about Evidently Project. | [Monitoring Proj with EvidentlyAI](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/9_ML_System_Monitoring/monitoring_proj_evidently) |
+
+
+### Chapter-8 : PipeLine Orchestration
+| Day       | Topics Covered                                                                 | Source Code |
+|-----------|----------------------------------------------------------------------------------|-------|
+| [Day 22](https://youtu.be/2nFpFSWifCU) | - MLflow  backend store setup <br> - CloudSQL setup for MLflow | -|
 
 
 
