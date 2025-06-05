@@ -12,6 +12,71 @@ This repository contains materials for the "Machine Learning Systems for Product
 
 
 
+
+## Course Outlines
+
+### Chapter 1: Basic Python Logic
+
+| Day       | Topics Covered                                                                 | Source Code |
+|-----------|----------------------------------------------------------------------------------|-------|
+| [Day 1](https://youtu.be/TcLsSfVlrvw) | - Course Introduction  <br> - Tools and Git Config <br> - Anaconda and Python Syntax | [1_Python_Basic_and_git](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/1_Python_Basic_and_git) |
+| [Day 2](https://youtu.be/43wYGtQgXKU) | - Python class and object <br> - Ollama Usage <br> - Pandas <br> - List <br> - Function Decorator <br> - Args vs kwargs | [1_Python_Basic_and_git](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/1_Python_Basic_and_git) |
+
+<br>
+<br>
+
+### Chapter-2 : Enviroment Setup
+| Day       | Topics Covered                                                                 | Source Code |
+|-----------|----------------------------------------------------------------------------------|-------|
+| [Day 3](https://youtu.be/8-vuoEaJNXE) | - Anaconda Usage <br> - PipEnv setup <br> - Poetry for python Envs| [2_ProdAndDev_Env_Setup](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/2_ProdAndDev_Env_Setup) |
+
+
+<br>
+<br>
+
+### Chapter-3 : Image Processing
+| Day       | Topics Covered                                                                 | Source Code |
+|-----------|----------------------------------------------------------------------------------|-------|
+| [Day 4](https://youtu.be/WqHgoYrLvW0) | - Basic Image Processing Techniques.<br>- BGR and RGB.<br>- Image lib : OpenCV and Pillow.<br>- Line detection Sample Project | - [Basic Img Functions](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/3_Image_Processing_Techniques/basic_img_funcs.ipynb) <br> - [Background/ Foreground extraction](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/3_Image_Processing_Techniques/image_extraction.ipynb) |
+
+<br>
+<br>
+
+
+### Chapter-4 : Machine Learning
+
+| Day       | Topics Covered                                                                 | Source Code |
+|-----------|----------------------------------------------------------------------------------|-------|
+| [Day 5](https://youtu.be/_LMB6GCD7fI) | - OCR Project<br> - Decision Tree<br> - K-Means<br> - Navie Bayes | - [Img Processing for Invoic](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/3_Image_Processing_Techniques/OCR_sample.ipynb) <br> - [OCR Project ](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/3_Image_Processing_Techniques/OCR_proj) <br> |
+| [Day 6](https://youtu.be/oGXVHlluo0U) | - Linear Regression coding <br> - Decission Tree, Navie Bayes, K-Means Coding <br> - Single perceptron (from scratch ) | - [Decision Tree and Navie Bayes : Framework](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/4_MachineLearning/1.%20Decision%20Tree%20and%20Navie%20Bayes/Decision_tree_framework.ipynb) <br> - [OCR Project ](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/3_Image_Processing_Techniques/OCR_proj) <br> |
+
+
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+- #### Chapter-5 : Deep Learning
+
+
+
+
+  (Day-1, Day-2)
+- Machine Learning 
+   
+  
+
+
+
+
+
+
 ### Course Timetable
 #### Dec 2024
 ##### Category : <b> Programming, Logic, ML Basic </b>
