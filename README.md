@@ -64,7 +64,21 @@ This repository contains materials for the "Machine Learning Systems for Product
 | [Day 11](https://youtu.be/fRncoqi2Mug) | - Knowledge Distillation <br> - Teacher and Student Networks <br> - Tensorflow best practices | <br> - [Teacher and Student Networks ](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/5_DeepLearning/tf_best_practices/knowledge_distillation.ipynb) |
 
 
+<br>
+<br>
 
+
+
+### Chapter-6 : Containerization And Deployment
+| Day       | Topics Covered                                                                 | Source Code |
+|-----------|----------------------------------------------------------------------------------|-------|
+| [Day 12](https://youtu.be/bJ9HUyVFM2c) | - Docker <br> - Flask <br> - FastAPI | - [Flask App](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/6_Containerization_And_Deployment/sample_flask) <br> - [FastAPI App](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/6_Containerization_And_Deployment/sample_fastapi) |
+| [Day 13](https://youtu.be/Mm5JR2Y5gQo) | - Fastapi Schemas <br> - Async and Sync | - [Fastapi Schemas : Request/Response Model](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/6_Containerization_And_Deployment/sample_fastapi/schemas.py) <br> - [Async and Sync](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/6_Containerization_And_Deployment/async_and_sync) |
+| [Day 14](https://youtu.be/Ea_ui7RTtxQ) | - Fastapi Schemas <br> - Async and Sync <br> - Text to Audio <br> - Text to Text | - [Text to Audio / Text to Text](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/6_Containerization_And_Deployment/sample_fastapi/model_work.py) |
+| [Day 15](https://youtu.be/0U97MYnwEvs) | - Design Pattern <br> - Structural vs Behavioral design patterns <br> - Structuring the project. <br> - Code formatter and clean code creation. <br> - Introduction to CloudRun | - [Design Pattern Examples ](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/1_Python_Basic_and_git/design_pattern) <br> - [ML_in_Prod_batch_2_proj1](https://github.com/tharhtetsan/ML_in_Prod_batch_2_proj1) |
+| [Day 16](https://youtu.be/4tiwUouEXrU) | - Set CI/CD in Project for CloudRun | - [Cloud Build ymal](https://github.com/tharhtetsan/ML_in_Prod_batch_2_proj1/blob/main/cloudbuild.yaml) |
+| [Day 17](https://youtu.be/E7dlQXeBxdQ) | - Understanding artifact registry <br> - CloudRun versioning <br> - Run-time Variable in CI/CD | - |
+| [Day 18](https://youtu.be/fiZQqM-UlS8) | - Github Action <br> - Unit Testing <br>- Automation the Unit Tests | [ci_sample.yml](https://github.com/tharhtetsan/ML_in_Prod_batch_2_proj1/blob/stg/.github/workflows/ci_sample.yml)|
 
 
 
