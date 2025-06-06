@@ -1,0 +1,43 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    networks: [flnet]
+    ports:
+      - "8080:8080"
+
+  client1:
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+    environment:
+      - CLIENT_ID=0
+    depends_on:
+      - server
+    networks: [flnet]
+
+  client2:
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+    environment:
+      - CLIENT_ID=1
+    depends_on:
+      - server
+    networks: [flnet]
+
+  client3:
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+    environment:
+      - CLIENT_ID=2
+    depends_on:
+      - server
+    networks: [flnet]
+
+
+
+networks:
+  flnet:
