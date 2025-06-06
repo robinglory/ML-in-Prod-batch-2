@@ -112,7 +112,14 @@ This repository contains materials for the "Machine Learning Systems for Product
 ### Chapter-8 : PipeLine Orchestration
 | Day       | Topics Covered                                                                 | Source Code |
 |-----------|----------------------------------------------------------------------------------|-------|
-| [Day 22](https://youtu.be/2nFpFSWifCU) | - MLflow  backend store setup <br> - CloudSQL setup for MLflow | -|
+| [Day 28](https://youtu.be/6FC_849BIxg) | - Data Orchestration <br> - Mage Pipeline vs Airflow Pipeline <br> - Airflow System Explain <br> - Role and User management in Airflow <br> - Bitshift Operators | [Bitshift Operator](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/10_Pipeline_Orchestration/1_airflow/airflow_fundamentals/dags/v5_bitshift_task_connection_2.py) |
+| [Day 29](https://youtu.be/JU36XfgUZXE) | - Chain in DAGs <br>  -Tasks flow <br> - Decorators in Airflow <br> - Ariflow Variable vs System Variable <br> - Xcom <br>- Connections <br> -File Sensor| - [Airflow Variable vs System Variable](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/10_Pipeline_Orchestration/1_airflow/airflow_fundamentals/dags/v9_variable.py) <br> -[File Sensors](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/10_Pipeline_Orchestration/1_airflow/airflow_fundamentals/dags/v10_sensor_local_file_exist.py) <br> -[Python Sensors](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/10_Pipeline_Orchestration/1_airflow/airflow_fundamentals/dags/v10_sensor_PythonSensor.py)|
+| [Day 30](https://youtu.be/mrc5qwwsogA) |  - Scheduler in Ariflow <br>- GCP Bucket Sensors<br> - Custom Airflow Server Setup| - [GCP Bucket Sensors](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/10_Pipeline_Orchestration/1_airflow/airflow_essential/dags/v10_sensor_gcpSensor.py) <br> -[Custom Airflow Server Setup](https://github.com/tharhtetsan/ML-in-Prod-batch-2/blob/main/10_Pipeline_Orchestration/1_airflow/airflow_essential/docker-compose.yml)|
+
+
+
+
+
 
 
 
