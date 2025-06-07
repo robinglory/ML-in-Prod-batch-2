@@ -1,5 +1,7 @@
 # Machine Learning Systems for Production (Batch-2)
 
+![profile](./images/profile.png)
+
 This repository contains materials for the "Machine Learning Systems for Production" course by [Thar Htet San](https://github.com/tharhtetsan). The lecture videos are available on the [Deepfaro YouTube channel](https://www.youtube.com/@deepfaro). This course focuses on MLOps, covering the following key topics:
 
 - Addressing technical debts in MLOps.
