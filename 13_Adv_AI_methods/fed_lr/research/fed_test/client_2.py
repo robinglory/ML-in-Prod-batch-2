@@ -29,7 +29,7 @@ class FlowerClient(NumPyClient):
     def __init__(self):
         self.model = tf_data_and_model.load_model()
         self.x_train, self.y_train, self.x_test, self.y_test = x_train_2, y_train_2,x_test_2, y_test_2
-        self.epochs = 10
+        self.epochs = 3
         self.batch_size = 32
         self.verbose = 2
 
