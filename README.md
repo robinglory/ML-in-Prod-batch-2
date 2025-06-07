@@ -27,7 +27,7 @@ This repository contains materials for the "Machine Learning Systems for Product
 <br>
 <br>
 
-### Chapter-2 : Enviroment Setup
+### Chapter-2 : Environment Setup
 | Day       | Topics Covered                                                                 | Source Code |
 |-----------|----------------------------------------------------------------------------------|-------|
 | [Day 3](https://youtu.be/8-vuoEaJNXE) | - Anaconda Usage <br> - PipEnv setup <br> - Poetry for python Envs| [2_ProdAndDev_Env_Setup](https://github.com/tharhtetsan/ML-in-Prod-batch-2/tree/main/2_ProdAndDev_Env_Setup) |
