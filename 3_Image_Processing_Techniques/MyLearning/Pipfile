@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+labelme = "*"
+onnxruntime = "*"
 
 [dev-packages]
 opencv-python = "*"
